@@ -3,7 +3,6 @@ Macan Productivity Suite is a comprehensive, integrated collection of desktop ap
 ---
 ## Showcase
 <img width="1728" height="2544" alt="macan-productivity-suite-github" src="https://github.com/user-attachments/assets/4615a8e7-da13-4818-b4c7-2fe78858db6c" />
----
 
 ## Core Components
 The suite includes five powerful applications, each tailored for a specific productivity function:
@@ -25,6 +24,14 @@ This product is distributed as a binary-only release. No compilation or setup sc
 Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
+---
+## Changelog v2.1.0
+- Update Macan Reader v3.4.0 - 4.0.0
+- Dynamic Multi-Tab: Can open multiple PDF files.
+- Status Bar Buttons: Navigation buttons (Prev/Next), Reset Zoom, and Fullscreen (F11) are located in the status bar.
+- Session Management: The application will remember which tabs were open when closed.
+- Added new menus to the Window menu: New Window and Fullscreen
+- Added a new function to the help menu: Set as default .pdf
 ---
 ## License & Copyright
 
