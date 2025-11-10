@@ -25,12 +25,25 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v2.2.0 (03-11-2025)
-- Update Macan Archiver v4.3.0 - 4.5.0
-- Added new functions to the help menu - Shell integration - Register .mcn format
+## Changelog v2.3.0 (10-11-2025)
+1. Macan Notes Pro v4.7.0 - 5.0.0
+   🚀 New Features
+Added "Paste as Plain Text" Action:
 
-- Update Macan Notes Pro v4.6.0 - 4.7.0
-- Added new functions to the help menu - Added function to register .txt, .md, .log formats
+Introduced a new "Paste as Plain Text" feature, accessible from the Edit menu or via the Ctrl+Shift+V shortcut.
+
+This allows users to paste content from the clipboard while stripping all external formatting.
+
+This resolves an issue where content pasted from external sources (like web browsers) would retain its original styling (e.g., black text in a dark theme), ensuring pasted text always respects the application's current theme.
+
+🛠️ Improvements & Fixes
+Enabled Rich Text Formatting Persistence for HTML:
+
+Modified the file I/O logic to provide support for saving and loading rich text formatting (e.g., bold, italics, lists, and text alignment).
+
+Save Logic: The application now serializes the editor's content to HTML when the file extension is .html or .htm. All other formats are saved as plain text as before.
+
+Load Logic: The application now correctly deserializes .html and .htm files, restoring all rich text formatting when a file is opened.
 ---
 ## License & Copyright
 
