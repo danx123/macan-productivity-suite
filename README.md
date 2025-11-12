@@ -25,25 +25,23 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v2.3.0 (10-11-2025)
-1. Macan Notes Pro v4.7.0 - 5.0.0
-   🚀 New Features
-Added "Paste as Plain Text" Action:
+## Changelog v2.4.0 
+1. Macan Reader v4.0.0 - 4.5.0
+   ✨ New Features
+Continuous View Mode: Users can now toggle between the default "Single Page" view and a new "Continuous" view (Ctrl+7). This mode renders all pages in a single vertical column, allowing for smooth scrolling through the entire document without clicking "Next" or "Previous."
+Toolbar Toggle: A new "Continuous View" icon has been added to the main toolbar to easily switch between view modes.
+🚀 Improvements & Fixes
+Virtual Page Rendering (Lazy Loading): To ensure high performance in Continuous View, only the pages currently visible (plus a small buffer) are rendered. Pages that scroll out of view are cleared from memory, keeping memory usage low even for large documents.
+FIXED: Lazy Loading Render Bug: Resolved a critical bug where the lazy loading mechanism would fail to render pages beyond the initial view (often stopping after 1-2 pages). All pages now correctly load as the user scrolls.
+Enhanced Tool Compatibility:
+Zoom: Zooming (Ctrl++/Ctrl+-, slider) now works perfectly in Continuous View, resizing all pages and recalculating the scroll layout on the fly.
+Pan Tool: The Pan tool (Hand icon) is fully functional across all pages in Continuous View.
+Search: Highlighting a search result (Ctrl+F) now correctly navigates to the corresponding page and scrolls it into view in both Single and Continuous modes.
+Go to Page: Jumping to a page (via Ctrl+G, thumbnails, or bookmarks) now instantly scrolls to the correct page's position in Continuous View.
+UI Smarts: The "Fit to Page" (Ctrl+9) action is now intelligently disabled in Continuous View, as it is only applicable to Single Page mode. "Fit to Width" (Ctrl+8) remains functional in both modes.
 
-Introduced a new "Paste as Plain Text" feature, accessible from the Edit menu or via the Ctrl+Shift+V shortcut.
-
-This allows users to paste content from the clipboard while stripping all external formatting.
-
-This resolves an issue where content pasted from external sources (like web browsers) would retain its original styling (e.g., black text in a dark theme), ensuring pasted text always respects the application's current theme.
-
-🛠️ Improvements & Fixes
-Enabled Rich Text Formatting Persistence for HTML:
-
-Modified the file I/O logic to provide support for saving and loading rich text formatting (e.g., bold, italics, lists, and text alignment).
-
-Save Logic: The application now serializes the editor's content to HTML when the file extension is .html or .htm. All other formats are saved as plain text as before.
-
-Load Logic: The application now correctly deserializes .html and .htm files, restoring all rich text formatting when a file is opened.
+2. Macan Archiver v4.5.0 - 4.7.0
+   🐞 Fixed * Addressed a critical bug in the "Copy Selected" (context menu) functionality where attempting to copy multiple items from an archive would fail unpredictably. * The bug could cause either **only one item** to be copied (despite selecting multiple) or, in some cases, the **entire archive's contents** to be extracted and copied, ignoring the user's selection. * Reworked the `_copy_selected_files_to_clipboard` method to be significantly more robust. Instead of passing filenames as command-line arguments (which caused the failure), the function now: 1. Writes the list of selected files to a temporary `listfile.txt`. 2. Calls `7z.exe` using the `@<listfile>` switch, which reliably handles any number of files. * The "Copy Selected" action now correctly extracts *only* the chosen files/folders to the temporary directory, ensuring that pasting into Windows Explorer works as expected.
 ---
 ## License & Copyright
 
