@@ -25,20 +25,13 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v2.6.0
-1. Macan Notes Pro v5.0.0 - 5.3.0
-- Added Zoom Label (%) Status Bar
-- Fixed Qss Stylesheet Context Menu
-- Fixed Highlight Current Line
-
-2. Macan Download Manager Pro v3.2.0 - 3.3.0
-- Fixed Startup Mode (Autostart Windows) Minimize to tray
-
-3. Macan Archiver v4.7.0 - 5.0.0
-- Added new theme: Dark Blue, Neon Blue, Soft Pink
-
-4. Macan Count Pro v4.1.0 - 4.2.0
-- Added Qsettings to save theme
+## Changelog v3.0.0
+Update Framework:
+- Macan Archiver v5.0.0 - 5.2.0
+- Macan Count Pro v4.2.0 - 4.4.0
+- Macan Download Manager v3.3.0 - 3.5.0
+- Macan Notes Pro v5.3.0 - 5.5.0
+- Macan Reader v4.7.0 - 5.0.0
 ---
 ## License & Copyright
 
