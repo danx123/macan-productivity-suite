@@ -25,13 +25,9 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v3.0.0
-Update Framework:
-- Macan Archiver v5.0.0 - 5.2.0
-- Macan Count Pro v4.2.0 - 4.4.0
-- Macan Download Manager v3.3.0 - 3.5.0
-- Macan Notes Pro v5.3.0 - 5.5.0
-- Macan Reader v4.7.0 - 5.0.0
+## Changelog v3.1.0
+1. Macan Reader v5.0.0 - 5.2.0
+   Update Engine (pypdfium2)
 ---
 ## License & Copyright
 
