@@ -25,16 +25,9 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v3.5.0
-1. Macan Notes Pro v5.7.0 - 6.0.0
-   - Added Check Update
-   - Improve Find Previous Dialog
-
-2. Macan Reader v5.2.0 - 5.3.0
-   - Added Check Update
-  
-3. Macan Archiver v5.2.0 - 5.3.0
-   - Added Check Update
+## Changelog v3.6.0
+1. Macan Reader v5.3.0 - 5.4.0
+   Update Engine (pypdfium2)
 ---
 ## License & Copyright
 
