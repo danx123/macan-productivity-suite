@@ -25,9 +25,10 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v3.6.0
-1. Macan Reader v5.3.0 - 5.4.0
-   Update Engine (pypdfium2)
+## Changelog v3.7.0
+1. Macan Download Manager v3.7.0
+- Optimized MIME type detection
+- Fixed split & merge
 ---
 ## License & Copyright
 
