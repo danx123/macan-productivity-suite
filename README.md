@@ -34,5 +34,5 @@ Extract the archive (if applicable) and launch the application.
 ---
 ## License & Copyright
 
-Copyright © 2025 - Danx Exodus - Macan Angkasa. All rights reserved.
+Copyright © 2026 - Danx Exodus - Macan Angkasa. All rights reserved.
 Unauthorized copying, distribution, or modification of this software is strictly prohibited.
