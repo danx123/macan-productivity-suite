@@ -25,12 +25,12 @@ Navigate to the Releases page of this repository.
 Download the latest release asset appropriate for your operating system.
 Extract the archive (if applicable) and launch the application.
 ---
-## Changelog v3.9.0
-1. Macan Notes Pro v6.2.0
-- Integrated Microsoft Copilot
+## Changelog v4.0.0
+1. Macan Notes Pro v6.4.0
+- Fixed file not opened
+- Optimized Copilot
 
-2. Macan Reader v5.5.0
-- Update engine (pypdfium2)
+
 ---
 ## License & Copyright
 
