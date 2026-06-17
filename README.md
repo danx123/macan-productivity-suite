@@ -2,7 +2,10 @@
 Macan Productivity Suite is a comprehensive, integrated collection of desktop applications designed to streamline your workflow and enhance operational efficiency. This suite provides a robust set of tools engineered for daily computational, archival, and document management tasks.
 ---
 ## Showcase
-<img width="1728" height="2544" alt="macan-productivity-suite-github" src="https://github.com/user-attachments/assets/4615a8e7-da13-4818-b4c7-2fe78858db6c" />
+<img width="1024" height="1536" alt="macan productivity suite" src="https://github.com/user-attachments/assets/7648028a-9d68-4bb3-a439-acac48995aff" />
+
+---
+
 
 ## Core Components
 The suite includes five powerful applications, each tailored for a specific productivity function:
